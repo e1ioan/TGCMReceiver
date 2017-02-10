@@ -1,0 +1,56 @@
+object Form8: TForm8
+  Left = 0
+  Top = 0
+  Caption = 'Form8'
+  ClientHeight = 567
+  ClientWidth = 384
+  Fill.Kind = bkGradient
+  Fill.Gradient.Points = <
+    item
+      Color = claDarkcyan
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMobile = True
+  DesignerWidth = 384
+  DesignerHeight = 592
+  DesignerDeviceName = 'Google Nexus 4'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object Button1: TButton
+    Height = 66.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 15.000000000000000000
+    TabOrder = 0
+    Text = 'Register'
+    Trimming = ttCharacter
+    Width = 137.000000000000000000
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [igPan, igLongTap, igDoubleTap]
+    Height = 409.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 120.000000000000000000
+    TabOrder = 1
+    Width = 353.000000000000000000
+  end
+  object Button2: TButton
+    Height = 66.000000000000000000
+    Position.X = 224.000000000000000000
+    Position.Y = 15.000000000000000000
+    TabOrder = 2
+    Text = 'Send test'
+    Trimming = ttCharacter
+    Width = 137.000000000000000000
+    OnClick = Button2Click
+  end
+end
